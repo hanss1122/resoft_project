@@ -5,21 +5,25 @@ html{
     background-color: #f6f6f6;
     padding: 60px 0;
 }
-#sec_proj_title{
+.sec_proj_wrap{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.sec_proj_title{
     text-align: center;
 }
-#sec_proj_title h2{
+.sec_proj_title h2{
     color: #04088a;
     font-size: 35px;
     margin-bottom: 15px;
 }
-#sec_proj_title p{
+.sec_proj_title p{
     color: #ee72d8;
     font-size: 12px;
     letter-spacing: 3px;
 }
-#sec_proj_container{
-    width: 1100px  ;
+.sec_proj_container{
+    /* width: 1100px ; */
     margin: 30px auto 0;
     padding: 15px;
     display: flex;
@@ -39,7 +43,6 @@ html{
     align-items: center;
     justify-content: center;
     height: 30%;
-    border: 1px solid blue;
 }
 .sec_proj_wrap_img{
     height: 150px;
@@ -47,7 +50,6 @@ html{
     justify-content: center;
     align-items: center; 
     flex-grow: 1;
-    border: 1px solid red;
 }
 .sec_proj_wrap_img img{
     width:100%;

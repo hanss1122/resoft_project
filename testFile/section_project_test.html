@@ -1,3 +1,4 @@
+<!-- Test File -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resoft Test</title>
     <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/test_sec_proj_style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700&display=swap" rel="stylesheet">
@@ -14,15 +14,16 @@
     <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="../css/test_sec_proj_style.css">
     <script>
         $( document ).ready( function() {
-          $( '#sec_proj_container' ).slick( {
+          $( '.sec_proj_container' ).slick( {
             // slide: '.sec_proj_box',
             autoplay: true,
             autoplaySpeed: 3000,
             slidesToShow: 4,
             slidesToScroll: 1,
-            arrows : true,
+            arrows : false,
 
             // 반응형 적용
             responsive: [
@@ -52,19 +53,19 @@
 <body>
     <section id="sec_proj">
         <div class="sec_proj_wrap">
-            <div id="sec_proj_title">
+            <div class="sec_proj_title">
                 <h2>프로젝트</h2>
                 <p>RESOFT PROJECT</p>
             </div>
             <!-- Slider -->
-            <div id="sec_proj_container">
+            <div class="sec_proj_container">
                 <!-- Box -->
                 <div class="sec_proj_box">
                     <div class="sec_proj_box_title">
                         <p>송파구청 송파둘레길<br>비대면 걷기대회</p>
                     </div>
                     <div class="sec_proj_wrap_img">
-                        <img src="../images/송파둘레길.png">
+                        <img src="../images/송파둘레길.png" alt="송파구청 로고">
                     </div>
                 </div>
                 <div class="sec_proj_box">
@@ -72,7 +73,7 @@
                         <p>대구인문사회대학</p>
                     </div>
                     <div class="sec_proj_wrap_img">
-                        <img src="../images/inmun_logo.png">
+                        <img src="../images/inmun_logo.png" alt="대구인문사회대학 로고" >
                     </div>
                 </div>
                 <div class="sec_proj_box">
@@ -80,7 +81,7 @@
                         <p>달서하프비대면마라톤</p>
                     </div>
                     <div class="sec_proj_wrap_img">
-                        <img src="../images/달서구청로고.png">
+                        <img src="../images/달서구청로고.png" alt="달서구청 로고">
                     </div>
                 </div>
                 <div class="sec_proj_box">
@@ -88,7 +89,7 @@
                         <p>한성백제마라톤</p>
                     </div>
                     <div class="sec_proj_wrap_img">
-                        <img src="../images/한성백제마라톤.png">
+                        <img src="../images/한성백제마라톤.png" alt="한성백제마라톤 로고">
                     </div>
                 </div>
                 <div class="sec_proj_box">
@@ -96,7 +97,7 @@
                         <p>대구마스크쓰고 코로나극복레이스</p>
                     </div>
                     <div class="sec_proj_wrap_img">
-                        <img src="../images/대구광역시.png">
+                        <img src="../images/대구광역시.png" alt="대구광역시 로고">
                     </div>
                 </div>
             </div>
