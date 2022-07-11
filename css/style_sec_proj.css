@@ -12,6 +12,7 @@ body{
 }
 .sec_proj_title{
   text-align: center;
+  font-weight: 600;
 }
 .sec_proj_title h2{
   color: #04088a;
@@ -39,8 +40,9 @@ body{
   /* flex로 지정 */
   /* 높이를 slider높이만큼 지정하면 중앙 정렬이 된다 */
   /* 너비로 화살표의 사이즈를 조절하면 된다 */
-  width: 200px;
+  width: 150px;
   height: 300px;
+  color: #888;
 }
 .btn_arrow.prev{
   /* position: absolute로 지정할 때 사용 */
@@ -96,7 +98,4 @@ body{
   .sec_proj_title h2{
     font-size: 28px;
   }
-  /* .sec_proj_container{
-    max-width: 900px;
-  } */
 }
